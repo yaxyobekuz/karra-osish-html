@@ -1,0 +1,1791 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Karra O'sish - Biznesingizni kengaytirish va daromadni oshirish dasturi. Tajribali mutaxassislar bilan biznesingizni rivojlantiring."
+    />
+    <meta
+      name="keywords"
+      content="karra o'sish, biznes, tadbirkorlik, daromad, marketing, muvaffaqiyat, biznes modeli, sherzod tursunov, barno tursunova"
+    />
+    <meta name="author" content="Karra O'sish" />
+    <meta
+      property="og:title"
+      content="Karra O'sish - Biznesingizni kengaytirish va daromadni oshirish dasturi"
+    />
+    <meta
+      property="og:description"
+      content="Tadbirkorlar uchun biznesni rivojlantirish va daromadni oshirish dasturi."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:url" content="https://karra-osish.netlify.app/src/index.html" />
+    <meta
+      property="og:image"
+      content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnxZsW0rRrU8QLKTgXNhsvjf8D6UYtpD9E5A&s"
+    />
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./src/css/output.css" />
+
+    <!-- Title -->
+    <title>Karra O'sish</title>
+  </head>
+
+  <body class="flex flex-col min-h-screen">
+    <!-- Header -->
+    <header id="main" class="py-2 relative bg-white/5">
+      <div class="container">
+        <div class="flex items-center justify-between gap-5">
+          <!-- Logo -->
+          <a href="index.html" class="flex items-center">
+            <img
+              width="56"
+              height="56"
+              src="./src/assets/images/icons/logo.svg"
+              alt="Logo image"
+              class="size-11 sm:size-12 md:size-14"
+            />
+            <span class="text-lg font-semibold">Karra o'sish</span>
+          </a>
+
+          <!-- Nav -->
+          <ul class="hidden items-center gap-8 lg:flex">
+            <li><a href="#main">Asosiy</a></li>
+            <li><a href="#about">Haqida</a></li>
+            <li><a href="#modules">Modullar</a></li>
+            <li><a href="#gallery">Fotogalareya</a></li>
+            <li><a href="#comments">Sharxlar</a></li>
+          </ul>
+
+          <div class="flex items-center gap-5">
+            <a href="#develop" class="hidden btn-primary sm:flex"
+              >Qabulga yozilish</a
+            >
+            <button
+              id="menuButton"
+              class="flex items-center justify-center size-10 bg-neutral-100 rounded-full border transition-colors duration-200 hover:bg-neutral-200 sm:size-11 lg:hidden"
+            >
+              <img
+                width="24"
+                height="24"
+                src="./src/assets/images/icons/hamburger.svg"
+                alt="Hamburger menu icon"
+                class="size-[21px] sm:size-6"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Responsive menu -->
+      <div
+        id="mobileMenu"
+        class="fixed inset-x-0 top-[60px] z-50 bg-gray-light w-full h-screen translate-x-full transition-transform duration-300 dark:bg-[#212121] sm:top-16 md:top-[72px]"
+      >
+        <div class="p-8">
+          <ul class="flex flex-col items-center gap-8">
+            <li><a href="#main" class="menu-link">Asosiy</a></li>
+            <li><a href="#about" class="menu-link">Haqida</a></li>
+            <li><a href="#modules" class="menu-link">Modullar</a></li>
+            <li><a href="#gallery" class="menu-link">Fotogalareya</a></li>
+            <li><a href="#comments" class="menu-link">Sharxlar</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero section -->
+    <div>
+      <div class="pt-20 pb-5 bg-red-5">
+        <div class="container relative">
+          <h1
+            class="mb-5 text-center font-extrabold text-2xl px-5 sm:px-0 sm:text-3xl md:text-4xl lg:leading-relaxed lg:text-[44px]"
+          >
+            Tadbirkorlar uchun biznesni kengaytirish <br />
+            va
+            <span class="text-primary"> daromadni oshirish </span>
+            dasturi
+          </h1>
+          <p class="relative z-10 mb-8 text-center sm:text-[17px]">
+            Biznesni yuksaltirish uchun kerakli dastur. <br class="md:hidden" />
+            Biz bilan biznesingizni rivojlantiring.
+          </p>
+          <div
+            class="flex flex-col items-center justify-center gap-5 w-full sm:flex-row"
+          >
+            <a href="#develop" class="btn-primary w-40">Qabulga yozilish</a>
+            <a href="#" class="btn-secondary w-40">Video lavha</a>
+          </div>
+          <img
+            width="48"
+            height="48"
+            src="./src/assets/images/icons/top-right-arrow.svg"
+            alt="Top right arrow icon"
+            class="absolute -top-14 size-12 sm:left-5 sm:top-auto sm:bottom-5"
+          />
+          <img
+            width="56"
+            height="56"
+            src="./src/assets/images/icons/magic.svg"
+            alt="Magic icon"
+            class="absolute size-12 bottom-20 -left-2 sm:left-5 sm:-bottom-28 md:left-16 md:bottom-28 lg:left-24 lg:size-14 lg:bottom-20"
+          />
+          <img
+            width="40"
+            height="40"
+            src="./src/assets/images/icons/doc.svg"
+            alt="Doc icon"
+            class="absolute left-16 -bottom-14 size-10 sm:left-24 md:-bottom-10"
+          />
+          <img
+            width="48"
+            height="48"
+            src="./src/assets/images/icons/stats.svg"
+            alt="Statistics icon"
+            class="absolute right-0 bottom-12 size-12 sm:right-8"
+          />
+          <img
+            width="48"
+            height="48"
+            src="./src/assets/images/icons/flow.svg"
+            alt="Flow icon"
+            class="absolute right-28 -bottom-20 size-12 md:-bottom-10"
+          />
+        </div>
+      </div>
+      <div class="hidden pt-24 pb-20 sm:block md:pt-12">
+        <div class="container relative">
+          <div
+            class="grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-5 md:grid-cols-4 lg:grid-cols-5"
+          >
+            <div
+              class="w-full h-72 rounded-2xl overflow-hidden order-1 xs:rounded-3xl xs:h-80 sm:h-96"
+            >
+              <img
+                width="226"
+                height="384"
+                src="./src/assets/images/backgrounds/stats.jpg"
+                alt="Statistics background image"
+                class="size-full object-cover bg-white"
+              />
+            </div>
+            <div
+              class="flex items-end w-full h-40 order-3 xs:h-52 sm:h-96 md:order-2"
+            >
+              <div
+                class="flex flex-col items-center justify-center gap-1.5 w-full h-full rounded-2xl bg-white/5 xs:rounded-3xl xs:gap-5 md:h-72"
+              >
+                <b
+                  class="text-2xl text-white font-semibold sm:text-3xl md:text-4xl"
+                  >50+</b
+                >
+                <p class="max-w-36 text-center text-white text-lg md:text-xl">
+                  Hurmatli mijoz va hamkorlar bilan ishlaymiz
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex flex-col justify-between w-full order-2 h-72 xs:rounded-3xl xs:h-80 sm:h-96 md:hidden md:order-3 lg:flex"
+            >
+              <div class="flex flex-col gap-3.5 items-center justify-center">
+                <div class="flex items-center justify-center gap-3.5">
+                  <div class="flex items-center gap-1.5">
+                    <img
+                      width="20"
+                      height="20"
+                      src="./src/assets/images/icons/star.svg"
+                      alt="Star icon"
+                      class="size-4 xs:size-5"
+                    />
+                    <img
+                      width="20"
+                      height="20"
+                      src="./src/assets/images/icons/star.svg"
+                      alt="Star icon"
+                      class="size-4 xs:size-5"
+                    />
+                    <img
+                      width="20"
+                      height="20"
+                      src="./src/assets/images/icons/star.svg"
+                      alt="Star icon"
+                      class="size-4 xs:size-5"
+                    />
+                    <img
+                      width="20"
+                      height="20"
+                      src="./src/assets/images/icons/star.svg"
+                      alt="Star icon"
+                      class="size-4 xs:size-5"
+                    />
+                    <img
+                      width="20"
+                      height="20"
+                      src="./src/assets/images/icons/star.svg"
+                      alt="Star icon"
+                      class="size-4 xs:size-5"
+                    />
+                  </div>
+                  <span class="text-[17px] font-medium">4.9</span>
+                </div>
+                <a
+                  href="#comments"
+                  class="font-medium underline underline-offset-2"
+                  >Mijozlar fikri</a
+                >
+              </div>
+              <div
+                class="w-full h-44 bg-white space-y-3.5 p-6 rounded-2xl text-dark xs:p-8 xs:h-52"
+              >
+                <span class="inline-block bg-primary/20 p-1.5 rounded-lg">
+                  <img
+                    width="24"
+                    height="24"
+                    src="./src/assets/images/icons/layout.svg"
+                    alt="Layout icon"
+                    class="size-6"
+                  />
+                </span>
+                <b class="block font-medium">Jami loyihalar</b>
+                <span
+                  class="block text-2xl font-semibold sm:text-3xl md:text-4xl"
+                  >235+</span
+                >
+              </div>
+            </div>
+            <div
+              class="flex items-end w-full h-40 order-5 text-dark xs:rounded-3xl xs:h-52 md:h-96"
+            >
+              <div
+                class="flex flex-col items-center justify-center gap-1.5 w-full h-full bg-[#E2FFC8] rounded-2xl xs:gap-5 md:h-72"
+              >
+                <b class="text-2xl font-semibold sm:text-3xl md:text-4xl"
+                  >30+</b
+                >
+                <p class="max-w-36 text-center text-lg md:text-xl">
+                  Yillik tajribaga ega bo'lgan mutaxasislar
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-start justify-end gap-3 w-full h-40 col-span-2 bg-primary p-6 rounded-2xl order-5 xs:rounded-3xl xs:gap-5 xs:p-8 xs:h-52 md:col-span-1 md:h-96"
+            >
+              <img
+                width="48"
+                height="48"
+                src="./src/assets/images/icons/rocket.svg"
+                alt="Rocket icon"
+                class="size-9 sm:size-10 md:size-12"
+              />
+              <p class="w-full text-white text-lg xs:max-w-36 md:text-xl">
+                Biznesingizni biz <br />
+                bilan rivojlantiring
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main class="grow">
+      <!-- Owners -->
+      <section class="bg-light py-20">
+        <div class="container !max-w-6xl">
+          <!-- Top -->
+          <div class="flex justify-center w-full mb-12">
+            <div class="space-y-3.5 text-center">
+              <!-- Section title -->
+              <h2>Asoschilar</h2>
+
+              <!-- Section description -->
+              <p class="max-w-xl text-lg">Karra o'sish asosiy asoschilari</p>
+            </div>
+          </div>
+
+          <!-- Main contents -->
+          <ul class="grid grid-cols-2 gap-4 sm:gap-5 md:grid-cols-4">
+            <!-- 1 -->
+            <li
+              class="flex items-end relative overflow-hidden h-72 !bg-cover !bg-no-repeat rounded-3xl p-4 col-span-2 xs:h-auto xs:col-span-1 xs:p-5 sm:p-6 md:col-span-2 md:row-span-2 lg:p-8"
+              style="
+                background: url('src/assets/images/backgrounds/sherzod-tursunov.jpg');
+              "
+            >
+              <h3
+                class="z-10 font-medium text-white text-xl md:text-2xl lg:text-3xl"
+              >
+                <span>Sherzod</span><br />
+                <span>Tursunov</span>
+              </h3>
+
+              <!-- Text overlay -->
+              <div
+                class="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-b from-transparent to-black/70"
+              ></div>
+            </li>
+
+            <!-- 2 -->
+            <li
+              class="flex items-end h-40 relative overflow-hidden !bg-right !bg-cover !bg-no-repeat p-4 rounded-3xl col-span-2 xs:!bg-[-200px] xs:h-56 xs:col-span-1 xs:p-5 sm:!bg-right sm:p-6 md:col-span-2"
+              style="
+                background: url('src/assets/images/backgrounds/barno-tursunova.jpg');
+              "
+            >
+              <h3
+                class="z-10 text-lg font-medium text-dark sm:text-xl mg:text-2xl"
+              >
+                <span>Barno</span><br />
+                <span>Tursunova</span>
+              </h3>
+
+              <!-- Text overlay -->
+              <div
+                class="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-b from-transparent to-white/70"
+              ></div>
+            </li>
+
+            <!-- 3 -->
+            <li
+              class="flex items-end h-40 relative overflow-hidden !bg-cover !bg-no-repeat p-4 rounded-3xl xs:h-56 xs:p-5 sm:p-6"
+              style="
+                background: url('src/assets/images/backgrounds/bekzod-komilov.jpg');
+              "
+            >
+              <h3 class="z-10 text-lg font-medium text-white sm:text-xl">
+                <span>Bekzod</span><br />
+                <span>Komilov</span>
+              </h3>
+
+              <!-- Text overlay -->
+              <div
+                class="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-b from-transparent to-black/70"
+              ></div>
+            </li>
+
+            <!-- 4 -->
+            <li
+              class="flex items-end h-40 relative overflow-hidden !bg-cover !bg-no-repeat p-4 rounded-3xl xs:h-56 xs:p-5 sm:p-6"
+              style="
+                background: url('src/assets/images/backgrounds/shirin-komilova.jpg');
+              "
+            >
+              <h3 class="z-10 text-lg font-medium text-white sm:text-xl">
+                <span>Shirin</span><br />
+                <span>Komilova</span>
+              </h3>
+
+              <!-- Text overlay -->
+              <div
+                class="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-b from-transparent to-black/70"
+              ></div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section class="pt-20 pb-10">
+        <div class="container">
+          <div class="flex items-center justify-between gap-1.5 mb-12">
+            <!-- Title -->
+            <h2>Dastur kimlar uchun?</h2>
+
+            <!-- Navigation buttons -->
+            <div class="flex justify-end gap-5">
+              <button
+                class="features-swiper-btn-prev flex items-center justify-center size-10 rotate-180 border-2 border-white rounded-full opacity-70 sm:size-11"
+              >
+                <img
+                  width="28"
+                  height="28"
+                  src="./src/assets/images/icons/arrow-right.svg"
+                  alt="Arrow right icon"
+                  class="size-5 sm:size-6"
+                />
+              </button>
+
+              <button
+                class="features-swiper-btn-next flex items-center justify-center size-10 border-2 border-white rounded-full opacity-70 sm:size-11"
+              >
+                <img
+                  width="28"
+                  height="28"
+                  src="./src/assets/images/icons/arrow-right.svg"
+                  alt="Arrow right icon"
+                  class="size-5 sm:size-6"
+                />
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="features-swiper h-64 mb-5 rounded-2xl xs:h-56 md:h-64 lg:h-72"
+          >
+            <div class="swiper-wrapper">
+              <div
+                class="swiper-slide !flex flex-col justify-between gap-4 !h-full bg-[#027FCC] p-5 rounded-2xl sm:gap-5 max-sm:!w-9/12 sm:rounded-3xl sm:p-6 md:p-8"
+              >
+                <img
+                  src="./src/assets/images/icons/layer.svg"
+                  alt="Icon"
+                  width="40"
+                  height="40"
+                  class="size-8 sm:size-9 lg:size-10"
+                />
+                <div class="space-y-3.5">
+                  <h3
+                    class="font-semibold text-white sm:text-[17px] lg:text-lg"
+                  >
+                    Biznesini kengaytirishni istaganlar uchun
+                  </h3>
+                  <p class="text-white text-sm md:text-base">
+                    Biznesini masshtablashni xohlaydigan biznesmenlar uchun.
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="swiper-slide !flex flex-col justify-between gap-4 !h-full bg-[#027FCC] p-5 rounded-2xl sm:gap-5 max-sm:!w-9/12 sm:rounded-3xl sm:p-6 md:p-8"
+              >
+                <img
+                  src="./src/assets/images/icons/bull.svg"
+                  alt="Icon"
+                  width="40"
+                  height="40"
+                  class="size-8 sm:size-9 lg:size-10"
+                />
+                <div class="space-y-3.5">
+                  <h3
+                    class="font-semibold text-white sm:text-[17px] lg:text-lg"
+                  >
+                    Daromadini oshirishni maqsad qilganlar uchun
+                  </h3>
+                  <p class="text-white text-sm md:text-base">
+                    Daromadini oshirishni xohlovchi tadbirkorlar uchun.
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="swiper-slide !flex flex-col justify-between gap-4 !h-full bg-[#027FCC] p-5 rounded-2xl sm:gap-5 max-sm:!w-9/12 sm:rounded-3xl sm:p-6 md:p-8"
+              >
+                <img
+                  src="./src/assets/images/icons/shield.svg"
+                  alt="Icon"
+                  width="40"
+                  height="40"
+                  class="size-8 sm:size-9 lg:size-10"
+                />
+                <div class="space-y-3.5">
+                  <h3
+                    class="font-semibold text-white sm:text-[17px] lg:text-lg"
+                  >
+                    Bozorda o'z o'rnini mustahkamlashni xohlovchilar uchun
+                  </h3>
+                  <p class="text-white text-sm md:text-base">
+                    O'z yo'nalishini bozorda mustahkam o'rnatishni xohlaydigan
+                    biznesmenlar uchun.
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="swiper-slide !flex flex-col justify-between gap-4 !h-full bg-[#027FCC] p-5 rounded-2xl sm:gap-5 max-sm:!w-9/12 sm:rounded-3xl sm:p-6 md:p-8"
+              >
+                <img
+                  src="./src/assets/images/icons/expansion.svg"
+                  alt="Icon"
+                  width="40"
+                  height="40"
+                  class="size-8 sm:size-9 lg:size-10"
+                />
+                <div class="space-y-3.5">
+                  <h3
+                    class="font-semibold text-white sm:text-[17px] lg:text-lg"
+                  >
+                    Yangi bozorga chiqishni rejalashtirganlar uchun
+                  </h3>
+                  <p class="text-white text-sm md:text-base">
+                    Yangi bozorga chiqishni istaydigan tadbirkorlar uchun.
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="swiper-slide !flex flex-col justify-between gap-4 !h-full bg-[#027FCC] p-5 rounded-2xl sm:gap-5 max-sm:!w-9/12 sm:rounded-3xl sm:p-6 md:p-8"
+              >
+                <img
+                  src="./src/assets/images/icons/object.svg"
+                  alt="Icon"
+                  width="40"
+                  height="40"
+                  class="size-8 sm:size-9 lg:size-10"
+                />
+                <div class="space-y-3.5">
+                  <h3
+                    class="font-semibold text-white sm:text-[17px] lg:text-lg"
+                  >
+                    Biznesiga yangi turtki berishni istaganlar uchun
+                  </h3>
+                  <p class="text-white text-sm md:text-base">
+                    Rivojlanish uchun yangi impuls (turtki) qidirayotgan va
+                    biznesini yuqori darajaga olib chiqishni istaydiganlar
+                    uchun.
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="swiper-slide !flex flex-col justify-between gap-4 !h-full bg-[#027FCC] p-5 rounded-2xl sm:gap-5 max-sm:!w-9/12 sm:rounded-3xl sm:p-6 md:p-8"
+              >
+                <img
+                  src="./src/assets/images/icons/app.svg"
+                  alt="Icon"
+                  width="40"
+                  height="40"
+                  class="size-8 sm:size-9 lg:size-10"
+                />
+                <div class="space-y-3.5">
+                  <h3
+                    class="font-semibold text-white sm:text-[17px] lg:text-lg"
+                  >
+                    Innovatsion yondashuvlarni qidirayotganlar uchun
+                  </h3>
+                  <p class="text-white text-sm md:text-base">
+                    O'z biznesini innovatsion yondashuvlar bilan
+                    rivojlantirishni xohlaydigan tadbirkorlar uchun.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About of format course -->
+      <section id="about" class="py-10">
+        <div class="container">
+          <!-- Top -->
+          <div class="flex justify-center w-full mb-12">
+            <div class="space-y-3.5 text-center">
+              <!-- Section title -->
+              <h2>Kurs formati haqida</h2>
+
+              <!-- Section description -->
+              <p class="max-w-xl text-lg">
+                Toshkent filialimizda 1 hafta davomida 1 marotaba jonli
+                uchrashuv tashkil qilinadi. Uchrashuv davomida quyidagi
+                muammolarga yechim topamiz.
+              </p>
+            </div>
+          </div>
+
+          <!-- Main contents -->
+          <ul class="flex flex-wrap items-center justify-center gap-4 sm:gap-5">
+            <!-- 1 -->
+            <li
+              class="flex flex-col items-center justify-center gap-3.5 w-32 sm:w-40 md:w-52"
+            >
+              <img
+                width="208"
+                height="208"
+                src="./src/assets/images/others/books.png"
+                alt="Books image"
+                class="size-32 sm:size-40 md:size-52"
+              />
+              <!-- Item title -->
+              <h3 class="h-12 font-medium text-center md:h-14 md:text-[17px]">
+                Fikrlash va psixologiya
+              </h3>
+            </li>
+
+            <!-- 2 -->
+            <li
+              class="flex flex-col items-center justify-center gap-3.5 w-32 sm:w-40 md:w-52"
+            >
+              <img
+                width="208"
+                height="208"
+                src="./src/assets/images/others/bull.png"
+                alt="Bull image"
+                class="size-32 sm:size-40 md:size-52"
+              />
+              <!-- Item title -->
+              <h3 class="h-12 font-medium text-center md:h-14 md:text-[17px]">
+                Biznes modellar <br />
+                va bozor
+              </h3>
+            </li>
+
+            <!-- 3 -->
+            <li
+              class="flex flex-col items-center justify-center gap-3.5 w-32 sm:w-40 md:w-52"
+            >
+              <img
+                width="208"
+                height="208"
+                src="./src/assets/images/others/handshake.png"
+                alt="Handshake image"
+                class="size-32 sm:size-40 md:size-52"
+              />
+              <!-- Item title -->
+              <h3 class="h-12 font-medium text-center md:h-14 md:text-[17px]">
+                Hamkorlik va jamoa
+              </h3>
+            </li>
+
+            <!-- 4 -->
+            <li
+              class="flex flex-col items-center justify-center gap-3.5 w-32 sm:w-40 md:w-52"
+            >
+              <img
+                width="208"
+                height="208"
+                src="./src/assets/images/others/megaphone.png"
+                alt="Megaphone image"
+                class="size-32 sm:size-40 md:size-52"
+              />
+              <!-- Item title -->
+              <h3 class="h-12 font-medium text-center md:h-14 md:text-[17px]">
+                Marketing va reklama
+              </h3>
+            </li>
+
+            <!-- 5 -->
+            <li
+              class="flex flex-col items-center justify-center gap-3.5 w-32 sm:w-40 md:w-52"
+            >
+              <img
+                width="208"
+                height="208"
+                src="./src/assets/images/others/money.png"
+                alt="Money image"
+                class="size-32 sm:size-40 md:size-52"
+              />
+              <!-- Item title -->
+              <h3 class="h-12 font-medium text-center md:h-14 md:text-[17px]">
+                Sotuv va daromad
+              </h3>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Information -->
+      <section class="pt-10 pb-20">
+        <div class="container">
+          <!-- Title -->
+          <h2 class="text-center mb-12">
+            Kurs davomida quyidagi ma'lumotlarga ega bo'lasiz
+          </h2>
+
+          <ol class="space-y-6 sm:space-y-8">
+            <!-- 1 -->
+            <li class="flex items-center even:justify-end">
+              <div
+                class="flex items-center gap-4 bg-white/5 max-w-3xl w-full h-20 px-4 rounded-2xl border border-[#393939] xs:border-2 xs:rounded-3xl xs:px-8 sm:gap-5"
+              >
+                <span class="text-xl font-semibold sm:text-2xl md:text-3xl"
+                  >01.</span
+                >
+                <h3
+                  class="text-sm font-medium xs:text-base sm:text-lg md:text-xl"
+                >
+                  Masshtablash uchun bosqichma-bosqich reja.
+                </h3>
+              </div>
+            </li>
+
+            <!-- 2 -->
+            <li class="flex items-center even:justify-end">
+              <div
+                class="flex items-center gap-4 bg-white/5 max-w-3xl w-full h-20 px-4 rounded-2xl border border-[#393939] xs:border-2 xs:rounded-3xl xs:px-8 sm:gap-5"
+              >
+                <span class="text-xl font-semibold sm:text-2xl md:text-3xl"
+                  >02.</span
+                >
+                <h3
+                  class="text-sm font-medium xs:text-base sm:text-lg md:text-xl"
+                >
+                  Tizimli o'sish uchun ko'rsatmalar - moliyadan jamoagacha.
+                </h3>
+              </div>
+            </li>
+
+            <!-- 3 -->
+            <li class="flex items-center even:justify-end">
+              <div
+                class="flex items-center gap-4 bg-white/5 max-w-3xl w-full h-20 px-4 rounded-2xl border border-[#393939] xs:border-2 xs:rounded-3xl xs:px-8 sm:gap-5"
+              >
+                <span class="text-xl font-semibold sm:text-2xl md:text-3xl"
+                  >03.</span
+                >
+                <h3
+                  class="text-sm font-medium xs:text-base sm:text-lg md:text-xl"
+                >
+                  Milliard rublik loyihalarni amalga oshirishda yordam bergan
+                  harakatlar.
+                </h3>
+              </div>
+            </li>
+
+            <!-- 4 -->
+            <li class="flex items-center even:justify-end">
+              <div
+                class="flex items-center gap-4 bg-white/5 max-w-3xl w-full h-20 px-4 rounded-2xl border border-[#393939] xs:border-2 xs:rounded-3xl xs:px-8 sm:gap-5"
+              >
+                <span class="text-xl font-semibold sm:text-2xl md:text-3xl"
+                  >04.</span
+                >
+                <h3
+                  class="text-sm font-medium xs:text-base sm:text-lg md:text-xl"
+                >
+                  Biznesga ziyon yetkazmagan holda masshtablashning aniq
+                  ko'rsatmalari.
+                </h3>
+              </div>
+            </li>
+
+            <!-- 5 -->
+            <li class="flex items-center even:justify-end">
+              <div
+                class="flex items-center gap-4 bg-white/5 max-w-3xl w-full h-20 px-4 rounded-2xl border border-[#393939] xs:border-2 xs:rounded-3xl xs:px-8 sm:gap-5"
+              >
+                <span class="text-xl font-semibold sm:text-2xl md:text-3xl"
+                  >05.</span
+                >
+                <h3
+                  class="text-sm font-medium xs:text-base sm:text-lg md:text-xl"
+                >
+                  Qanday qilib mijozlarni ko'paytirish.
+                </h3>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- Purposes -->
+      <section class="bg-light py-20">
+        <div class="container !max-w-6xl">
+          <!-- Top -->
+          <h2 class="mb-12 text-center">Maqsadlar</h2>
+
+          <!-- Cards -->
+          <ol
+            class="grid grid-cols-1 gap-4 xs:grid-cols-2 sm:gap-5 md:grid-cols-3"
+          >
+            <!-- 1 -->
+            <li
+              style="
+                background: url('./src/assets/images/backgrounds/advantage.jpg'),
+                  #292a31;
+                color: white;
+              "
+              class="flex flex-col justify-between gap-5 relative overflow-hidden min-h-52 !bg-cover !bg-no-repeat p-6 rounded-3xl sm:p-8"
+            >
+              <span class="text-xl font-semibold sm:text-2xl md:text-3xl"
+                >01.</span
+              >
+              <h3 class="z-10 font-semibold text-lg">
+                Tizimli ravishda raqobatchilardan ustunlikka erishish.
+              </h3>
+              <img
+                width="192"
+                height="192"
+                src="./src/assets/images/icons/polygon.svg"
+                alt="Polygon icon"
+                class="absolute size-40 opacity-30 -top-10 -right-10 sm:-top-14 sm:-right-14 sm:size-48"
+              />
+              <div
+                class="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-b from-transparent to-black"
+              ></div>
+            </li>
+
+            <!-- 2 -->
+            <li
+              style="background: #028de3; color: #ffffff"
+              class="flex flex-col justify-between gap-5 relative overflow-hidden min-h-52 !bg-cover !bg-no-repeat p-6 rounded-3xl sm:p-8"
+            >
+              <span class="text-xl font-semibold sm:text-2xl md:text-3xl"
+                >02.</span
+              >
+              <h3 class="z-10 font-semibold text-lg">
+                Biznesni tizimlashtirish: xodimlarni ishga olish, sotuv,
+                marketing.
+              </h3>
+              <img
+                width="192"
+                height="192"
+                src="./src/assets/images/icons/polygon.svg"
+                alt="Polygon icon"
+                class="absolute size-40 opacity-30 -top-10 -right-10 sm:-top-14 sm:-right-14 sm:size-48"
+              />
+            </li>
+
+            <!-- 3 -->
+            <li
+              style="
+                background: url('./src/assets/images/backgrounds/meeting.webp'),
+                  #292a31;
+                color: white;
+              "
+              class="flex flex-col justify-between gap-5 relative overflow-hidden min-h-52 !bg-cover !bg-no-repeat p-6 rounded-3xl sm:p-8"
+            >
+              <span class="text-xl font-semibold sm:text-2xl md:text-3xl"
+                >03.</span
+              >
+              <h3 class="z-10 font-semibold text-lg">
+                Qanday qilib jamoani samarali boshqarish va eng kuchli jamoani
+                yig'ish.
+              </h3>
+              <img
+                width="192"
+                height="192"
+                src="./src/assets/images/icons/polygon.svg"
+                alt="Polygon icon"
+                class="absolute size-40 opacity-30 -top-10 -right-10 sm:-top-14 sm:-right-14 sm:size-48"
+              />
+              <div
+                class="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-b from-transparent to-black"
+              ></div>
+            </li>
+
+            <!-- 4 -->
+            <li
+              style="background: #e2ffc8; color: #292a31"
+              class="flex flex-col justify-between gap-5 relative overflow-hidden min-h-52 !bg-cover !bg-no-repeat p-6 rounded-3xl sm:p-8"
+            >
+              <span class="text-xl font-semibold sm:text-2xl md:text-3xl"
+                >04.</span
+              >
+              <h3 class="z-10 font-semibold text-lg">
+                O'zingiz uchun shaxsiy vaqt ajratish va operatsion tizimdan
+                chiqish.
+              </h3>
+              <img
+                width="192"
+                height="192"
+                src="./src/assets/images/icons/polygon.svg"
+                alt="Polygon icon"
+                class="absolute size-40 opacity-30 -top-10 -right-10 sm:-top-14 sm:-right-14 sm:size-48"
+              />
+            </li>
+
+            <!-- 5 -->
+            <li
+              style="
+                background: url('./src/assets/images/backgrounds/bull.jpg'), #292a31;
+                color: white;
+              "
+              class="flex flex-col justify-between gap-5 relative overflow-hidden min-h-52 !bg-cover !bg-no-repeat p-6 rounded-3xl sm:p-8"
+            >
+              <span class="text-xl font-semibold sm:text-2xl md:text-3xl"
+                >05.</span
+              >
+              <h3 class="z-10 font-semibold text-lg">
+                O'sish nuqtasini topib, sof foydani oshirish.
+              </h3>
+              <img
+                width="192"
+                height="192"
+                src="./src/assets/images/icons/polygon.svg"
+                alt="Polygon icon"
+                class="absolute size-40 opacity-30 -top-10 -right-10 sm:-top-14 sm:-right-14 sm:size-48"
+              />
+              <div
+                class="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-b from-transparent to-black"
+              ></div>
+            </li>
+
+            <!-- Item 6 -->
+            <li
+              style="background: #111; color: white"
+              class="flex flex-col justify-between gap-5 relative overflow-hidden min-h-52 !bg-cover !bg-no-repeat p-6 rounded-3xl sm:p-8"
+            >
+              <span class="text-xl font-semibold sm:text-2xl md:text-3xl"
+                >06.</span
+              >
+              <h3 class="z-10 font-semibold text-lg">
+                Mijozlar oqimini bir necha barobar oshirish.
+              </h3>
+              <img
+                width="192"
+                height="192"
+                src="./src/assets/images/icons/polygon.svg"
+                alt="Polygon icon"
+                class="absolute size-40 opacity-30 -top-10 -right-10 sm:-top-14 sm:-right-14 sm:size-48"
+              />
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- Owner -->
+      <section class="pt-20 pb-10">
+        <div class="container">
+          <div class="grid grid-cols-1 gap-8 md:gap-5 md:grid-cols-2">
+            <img
+              alt="Sherzod Tursunov"
+              src="./src/assets/images/others/sherzod-tursunov.png"
+              class="mx-auto max-w-md w-full md:max-w-max md:mx-0 md:p-5 lg:p-12"
+            />
+
+            <!-- Content -->
+            <div class="flex flex-col items-center justify-center gap-5">
+              <!-- 1 -->
+              <div
+                class="max-w-lg space-y-3 text-center w-full bg-primary text-white py-8 px-4 rounded-2xl lg:px-8"
+              >
+                <h3 class="text-[17px] font-semibold">
+                  "Eurodesign" asoschisi
+                </h3>
+                <!-- Description -->
+                <p class="opacity-80">
+                  270 million AQSh dollaridan ortiq aylanmaga ega bo'lgan
+                  kompaniya. Rossiyada o'z sohasida yetakchi uchlikka kiradi.
+                </p>
+              </div>
+
+              <!-- 2 -->
+              <div
+                class="max-w-lg space-y-3 text-center w-full bg-white/5 text-white py-8 px-4 rounded-2xl lg:px-8"
+              >
+                <h3 class="text-[17px] font-semibold">
+                  "Wilgood" - aqlli avtoservislar tarmog'ini noldan boshlab
+                  yaratgan
+                </h3>
+                <!-- Description -->
+                <p class="opacity-80">
+                  Kompaniyaning yillik aylanmasi 1,8 milliard rublga yetgan.
+                  2017-yilda Rossiya "Forbes" jurnalining "Yilning eng yaxshi
+                  franshizasi" reytingida kuchli uchlikdan joy olgan.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Modules -->
+      <section id="modules" class="py-10">
+        <div class="container">
+          <!-- Title -->
+          <h2 class="text-primary text-center mb-12">Asosiy modullar</h2>
+
+          <ol class="space-y-5">
+            <!-- 1 -->
+            <li
+              class="bg-white/5 space-y-4 p-4 rounded-2xl even:bg-white/70 even:text-dark border border-[#393939] sm:rounded-3xl even:border-white/70 xs:border-2 sm:p-6 md:space-y-6 md:p-8"
+            >
+              <!-- Top -->
+              <div class="flex items-start gap-3 md:gap-5">
+                <span class="text-xl font-semibold sm:text-2xl md:text-3xl"
+                  >01.</span
+                >
+                <h3
+                  class="text-lg font-medium -mt-1 sm:mt-0 sm:text-xl md:text-2xl"
+                >
+                  Tadbirkor psixologiyasi: ichki holatni o'zgartirish
+                </h3>
+              </div>
+
+              <!-- Purpose -->
+              <p class="opacity-70 md:text-lg">
+                Tadbirkorda noto'g'ri shakllangan ichki resurslardan xalos
+                bo'lish, ichki to'siqlarni yengib o'tish va biznesining o'sishi
+                hamda rivojlanishi uchun barqaror fikrlashni shakllantirish.
+              </p>
+
+              <!-- Points -->
+              <ul class="space-y-3">
+                <li class="flex items-center gap-3.5">
+                  <img
+                    width="24"
+                    height="24"
+                    src="./src/assets/images/icons/success.svg"
+                    alt="Success icon"
+                    class="size-6"
+                  />
+                  <span class="md:text-lg"
+                    >Bloklar bilan ishlash: o'sishga to'sqinlik qilayotgan
+                    qo'rquvlarni yengish.</span
+                  >
+                </li>
+                <li class="flex items-center gap-3.5">
+                  <img
+                    width="24"
+                    height="24"
+                    src="./src/assets/images/icons/success.svg"
+                    alt="Success icon"
+                    class="size-6"
+                  />
+                  <span class="md:text-lg"
+                    >Qaror qabul qilishda o'ziga bo'lgan ishonchni oshirish,
+                    haqiqiy liderlikni qabul qilish.</span
+                  >
+                </li>
+                <li class="flex items-center gap-3.5">
+                  <img
+                    width="24"
+                    height="24"
+                    src="./src/assets/images/icons/success.svg"
+                    alt="Success icon"
+                    class="size-6"
+                  />
+                  <span class="md:text-lg"
+                    >Liderlik ruhiyatini shakllantirish, tavakkalchilikni
+                    (risklarni) qabul qilish.</span
+                  >
+                </li>
+                <li class="flex items-center gap-3.5">
+                  <img
+                    width="24"
+                    height="24"
+                    src="./src/assets/images/icons/success.svg"
+                    alt="Success icon"
+                    class="size-6"
+                  />
+                  <span class="md:text-lg"
+                    >Energiya boshqaruvini qo'lga olib, ortiqcha zo'riqishlarsiz
+                    samaradorlikni oshirish.</span
+                  >
+                </li>
+                <li class="flex items-center gap-3.5">
+                  <img
+                    width="24"
+                    height="24"
+                    src="./src/assets/images/icons/success.svg"
+                    alt="Success icon"
+                    class="size-6"
+                  />
+                  <span class="md:text-lg"
+                    >Stresli vaziyatlarda chidamlilikni oshirish uchun amaliy
+                    usullar.</span
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <!-- 2 -->
+            <li
+              class="bg-white/5 space-y-4 p-4 rounded-2xl even:bg-white/70 even:text-dark border border-[#393939] sm:rounded-3xl even:border-white/70 xs:border-2 sm:p-6 md:space-y-6 md:p-8"
+            >
+              <!-- Top -->
+              <div class="flex items-start gap-3 md:gap-5">
+                <span class="text-xl font-semibold sm:text-2xl md:text-3xl"
+                  >02.</span
+                >
+                <h3
+                  class="text-lg font-medium -mt-1 sm:mt-0 sm:text-xl md:text-2xl"
+                >
+                  Biznes-modellar va brendlar tahlili: biznesingiz asoslarini
+                  mustahkamlash
+                </h3>
+              </div>
+
+              <!-- Purpose -->
+              <p class="opacity-70 md:text-lg">
+                Biznesning zaif tomonlarini aniqlab, modelni mustahkamlash va
+                kuchli brend yaratish.
+              </p>
+
+              <!-- Points -->
+              <ul class="space-y-3">
+                <li class="flex items-center gap-3.5">
+                  <img
+                    width="24"
+                    height="24"
+                    src="./src/assets/images/icons/success.svg"
+                    alt="Success icon"
+                    class="size-6"
+                  />
+                  <span class="md:text-lg"
+                    >Hozirgi biznes-modelingiz tahlili: nima ishlayapti, qayerda
+                    biznesingiz oqsayapti.</span
+                  >
+                </li>
+                <li class="flex items-center gap-3.5">
+                  <img
+                    width="24"
+                    height="24"
+                    src="./src/assets/images/icons/success.svg"
+                    alt="Success icon"
+                    class="size-6"
+                  />
+                  <span class="md:text-lg"
+                    >Noyob savdo taklifini (UTP) yaratish.</span
+                  >
+                </li>
+                <li class="flex items-center gap-3.5">
+                  <img
+                    width="24"
+                    height="24"
+                    src="./src/assets/images/icons/success.svg"
+                    alt="Success icon"
+                    class="size-6"
+                  />
+                  <span class="md:text-lg"
+                    >Mijozlarni o'ziga tortadigan brend qurish va
+                    lidogeneratsiyani yo'lga qo'yish.</span
+                  >
+                </li>
+                <li class="flex items-center gap-3.5">
+                  <img
+                    width="24"
+                    height="24"
+                    src="./src/assets/images/icons/success.svg"
+                    alt="Success icon"
+                    class="size-6"
+                  />
+                  <span class="md:text-lg"
+                    >Moliyaviy oqimni yaxshilash va xarajatlarni
+                    kamaytirish.</span
+                  >
+                </li>
+                <li class="flex items-center gap-3.5">
+                  <img
+                    width="24"
+                    height="24"
+                    src="./src/assets/images/icons/success.svg"
+                    alt="Success icon"
+                    class="size-6"
+                  />
+                  <span class="md:text-lg"
+                    >Ishtirokchilar tajribasi: haqiqiy vaziyatlarni o'rganib,
+                    to'g'ri qarorlar qabul qilish uchun foydalanish.</span
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <!-- 3 -->
+            <li
+              class="bg-white/5 space-y-4 p-4 rounded-2xl even:bg-white/70 even:text-dark border border-[#393939] sm:rounded-3xl even:border-white/70 xs:border-2 sm:p-6 md:space-y-6 md:p-8"
+            >
+              <!-- Top -->
+              <div class="flex items-start gap-3 md:gap-5">
+                <span class="text-xl font-semibold sm:text-2xl md:text-3xl"
+                  >03.</span
+                >
+                <h3
+                  class="text-lg font-medium -mt-1 sm:mt-0 sm:text-xl md:text-2xl"
+                >
+                  Jamoa: odamlar orqali biznesni kuchaytirish
+                </h3>
+              </div>
+
+              <!-- Purpose -->
+              <p class="opacity-70 md:text-lg">
+                Kuchli jamoa tuzishni o'rganish.
+              </p>
+
+              <!-- Points -->
+              <ul class="space-y-3">
+                <li class="flex items-center gap-3.5">
+                  <img
+                    width="24"
+                    height="24"
+                    src="./src/assets/images/icons/success.svg"
+                    alt="Success icon"
+                    class="size-6"
+                  />
+                  <span class="md:text-lg"
+                    >Qanday qilib biznesingizga turtki beruvchi xodimni
+                    topish.</span
+                  >
+                </li>
+                <li class="flex items-center gap-3.5">
+                  <img
+                    width="24"
+                    height="24"
+                    src="./src/assets/images/icons/success.svg"
+                    alt="Success icon"
+                    class="size-6"
+                  />
+                  <span class="md:text-lg"
+                    >Brendingiz atrofida ekotizim yaratish.</span
+                  >
+                </li>
+                <li class="flex items-center gap-3.5">
+                  <img
+                    width="24"
+                    height="24"
+                    src="./src/assets/images/icons/success.svg"
+                    alt="Success icon"
+                    class="size-6"
+                  />
+                  <span class="md:text-lg"
+                    >Jamoaning doimiy rivojlanish yo'lida harakat qilishini
+                    ta’minlash uchun qanday choralar ko'rish kerak?</span
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <!-- 4 -->
+            <li
+              class="bg-white/5 space-y-4 p-4 rounded-2xl even:bg-white/70 even:text-dark border border-[#393939] sm:rounded-3xl even:border-white/70 xs:border-2 sm:p-6 md:space-y-6 md:p-8"
+            >
+              <!-- Top -->
+              <div class="flex items-start gap-3 md:gap-5">
+                <span class="text-xl font-semibold sm:text-2xl md:text-3xl"
+                  >04.</span
+                >
+                <h3
+                  class="text-lg font-medium -mt-1 sm:mt-0 sm:text-xl md:text-2xl"
+                >
+                  Marketing va lidogeneratsiya: qanday qilib yangi darajaga
+                  chiqish mumkin?
+                </h3>
+              </div>
+
+              <!-- Purpose -->
+              <p class="opacity-70 md:text-lg">
+                Yangi mijozlarni jalb qilish va mavjud mijozlarni saqlab qolish
+                uchun marketing strategiyalarini yaratishni o'rganish, sifatli
+                lidlar yaratish uchun yangi metodlar va vositalarni tushunish va
+                tatbiq etish.
+              </p>
+
+              <!-- Points -->
+              <ul class="space-y-3">
+                <li class="flex items-center gap-3.5">
+                  <img
+                    width="24"
+                    height="24"
+                    src="./src/assets/images/icons/success.svg"
+                    alt="Success icon"
+                    class="size-6"
+                  />
+                  <span class="md:text-lg"
+                    >Noyob savdo taklifini (UTP) yaratish.</span
+                  >
+                </li>
+                <li class="flex items-center gap-3.5">
+                  <img
+                    width="24"
+                    height="24"
+                    src="./src/assets/images/icons/success.svg"
+                    alt="Success icon"
+                    class="size-6"
+                  />
+                  <span class="md:text-lg"
+                    >Reklama kanallarini tanlash (onlayn: ijtimoiy tarmoqlar,
+                    kontekstli reklama, SEO; oflayn: tadbirlar, tashqi reklama,
+                    PR).</span
+                  >
+                </li>
+                <li class="flex items-center gap-3.5">
+                  <img
+                    width="24"
+                    height="24"
+                    src="./src/assets/images/icons/success.svg"
+                    alt="Success icon"
+                    class="size-6"
+                  />
+                  <span class="md:text-lg"
+                    >Maksimal natijaga erishish uchun budjetni optimallashtirish
+                    va xarajatlarni baholash.</span
+                  >
+                </li>
+                <li class="flex items-center gap-3.5">
+                  <img
+                    width="24"
+                    height="24"
+                    src="./src/assets/images/icons/success.svg"
+                    alt="Success icon"
+                    class="size-6"
+                  />
+                  <span class="md:text-lg"
+                    >O'z biznesingiz uchun individual marketing rejasi va
+                    lidogeneratsiya tizimini ishlab chiqish.</span
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <!-- 5 -->
+            <li
+              class="bg-white/5 space-y-4 p-4 rounded-2xl even:bg-white/70 even:text-dark border border-[#393939] sm:rounded-3xl even:border-white/70 xs:border-2 sm:p-6 md:space-y-6 md:p-8"
+            >
+              <!-- Top -->
+              <div class="flex items-start gap-3 md:gap-5">
+                <span class="text-xl font-semibold sm:text-2xl md:text-3xl"
+                  >05.</span
+                >
+                <h3
+                  class="text-lg font-medium -mt-1 sm:mt-0 sm:text-xl md:text-2xl"
+                >
+                  Sotuv, avtomatlashtirish va motivatsiyani tizimlashtirish
+                </h3>
+              </div>
+
+              <!-- Purpose -->
+              <p class="opacity-70 md:text-lg">
+                Sotuv boshqaruvining asosiy tamoyillarini o'rganish va tatbiq
+                etish, biznes jarayonlarini avtomatlashtirish va xodimlar
+                motivatsiyasini oshirish uchun samarali tizim yaratish.
+              </p>
+
+              <!-- Points -->
+              <ul class="space-y-3">
+                <li class="flex items-center gap-3.5">
+                  <img
+                    width="24"
+                    height="24"
+                    src="./src/assets/images/icons/success.svg"
+                    alt="Success icon"
+                    class="size-6"
+                  />
+                  <span class="md:text-lg"
+                    >Sotuv bo'limining ishini baholash uchun asosiy
+                    KPI-lar.</span
+                  >
+                </li>
+                <li class="flex items-center gap-3.5">
+                  <img
+                    width="24"
+                    height="24"
+                    src="./src/assets/images/icons/success.svg"
+                    alt="Success icon"
+                    class="size-6"
+                  />
+                  <span class="md:text-lg"
+                    >Sotuv bo'limini boshqarishning asosiy tamoyillari va
+                    foydani oshirish uchun strategiyalar ishlab chiqish.</span
+                  >
+                </li>
+                <li class="flex items-center gap-3.5">
+                  <img
+                    width="24"
+                    height="24"
+                    src="./src/assets/images/icons/success.svg"
+                    alt="Success icon"
+                    class="size-6"
+                  />
+                  <span class="md:text-lg"
+                    >Ish samaradorligini oshirish va ortiqcha harakatlarni
+                    oldini olish maqsadida sotuv jarayonini
+                    avtomatlashtirish.</span
+                  >
+                </li>
+                <li class="flex items-center gap-3.5">
+                  <img
+                    width="24"
+                    height="24"
+                    src="./src/assets/images/icons/success.svg"
+                    alt="Success icon"
+                    class="size-6"
+                  />
+                  <span class="md:text-lg"
+                    >Sotuv bo'limi jamoasining ish unumdorligini oshirish uchun
+                    samarali tizim ishlab chiqish va tatbiq etish.</span
+                  >
+                </li>
+              </ul>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- Gallery -->
+      <section id="gallery" class="py-10">
+        <div class="container">
+          <div class="flex items-center justify-between mb-12">
+            <!-- Title -->
+            <h2 class="text-center">Fotogalareya</h2>
+
+            <!-- Navigation buttons -->
+            <div class="flex justify-end gap-5">
+              <button
+                class="btn-prev flex items-center justify-center size-10 rotate-180 border-2 border-white rounded-full opacity-70 sm:size-11"
+              >
+                <img
+                  width="{28}"
+                  height="{28}"
+                  src="./src/assets/images/icons/arrow-right.svg"
+                  alt="Arrow right icon"
+                  class="size-5 sm:size-6"
+                />
+              </button>
+
+              <button
+                class="btn-next flex items-center justify-center size-10 border-2 border-white rounded-full opacity-70 sm:size-11"
+              >
+                <img
+                  width="{28}"
+                  height="{28}"
+                  src="./src/assets/images/icons/arrow-right.svg"
+                  alt="Arrow right icon"
+                  class="size-5 sm:size-6"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Swiper -->
+        <div class="gallery-swiper w-full h-48 xs:h-64 sm:h-80 md:h-[400px]">
+          <div class="swiper-wrapper">
+            <div
+              style="background: url('./src/assets/images/backgrounds/1.jpeg')"
+              class="swiper-slide !w-5/6 !h-auto !aspect-square bg-white !bg-center !bg-cover !bg-no-repeat rounded-xl sm:rounded-2xl lg:!w-[820px]"
+            ></div>
+            <div
+              style="background: url('./src/assets/images/backgrounds/2.jpeg')"
+              class="swiper-slide !w-5/6 !h-auto !aspect-square bg-white !bg-center !bg-cover !bg-no-repeat rounded-xl sm:rounded-2xl lg:!w-[820px]"
+            ></div>
+            <div
+              style="background: url('./src/assets/images/backgrounds/3.jpeg')"
+              class="swiper-slide !w-5/6 !h-auto !aspect-square bg-white !bg-center !bg-cover !bg-no-repeat rounded-xl sm:rounded-2xl lg:!w-[820px]"
+            ></div>
+            <div
+              style="background: url('./src/assets/images/backgrounds/4.jpeg')"
+              class="swiper-slide !w-5/6 !h-auto !aspect-square bg-white !bg-center !bg-cover !bg-no-repeat rounded-xl sm:rounded-2xl lg:!w-[820px]"
+            ></div>
+            <div
+              style="background: url('./src/assets/images/backgrounds/5.jpeg')"
+              class="swiper-slide !w-5/6 !h-auto !aspect-square bg-white !bg-center !bg-cover !bg-no-repeat rounded-xl sm:rounded-2xl lg:!w-[820px]"
+            ></div>
+            <div
+              style="background: url('./src/assets/images/backgrounds/6.jpeg')"
+              class="swiper-slide !w-5/6 !h-auto !aspect-square bg-white !bg-center !bg-cover !bg-no-repeat rounded-xl sm:rounded-2xl lg:!w-[820px]"
+            ></div>
+            <div
+              style="background: url('./src/assets/images/backgrounds/7.jpeg')"
+              class="swiper-slide !w-5/6 !h-auto !aspect-square bg-white !bg-center !bg-cover !bg-no-repeat rounded-xl sm:rounded-2xl lg:!w-[820px]"
+            ></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Comments -->
+      <section id="comments" class="py-10">
+        <div class="container">
+          <div class="flex items-center justify-between mb-12">
+            <!-- Title -->
+            <h2 class="text-center">Sharxlar</h2>
+
+            <!-- Navigation buttons -->
+            <div class="flex justify-end gap-5">
+              <button
+                class="comments-swiper-btn-prev flex items-center justify-center size-10 rotate-180 border-2 border-white rounded-full opacity-70 sm:size-11"
+              >
+                <img
+                  width="{28}"
+                  height="{28}"
+                  src="./src/assets/images/icons/arrow-right.svg"
+                  alt="Arrow right icon"
+                  class="size-5 sm:size-6"
+                />
+              </button>
+
+              <button
+                class="comments-swiper-btn-next flex items-center justify-center size-10 border-2 border-white rounded-full opacity-70 sm:size-11"
+              >
+                <img
+                  width="{28}"
+                  height="{28}"
+                  src="./src/assets/images/icons/arrow-right.svg"
+                  alt="Arrow right icon"
+                  class="size-5 sm:size-6"
+                />
+              </button>
+            </div>
+          </div>
+
+          <!-- Swiper -->
+          <div
+            class="swiper-container comments-swiper h-[400px] mb-5 rounded-2xl"
+          >
+            <div class="swiper-wrapper comments-swiper-wrapper"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Main Form -->
+      <section id="develop" class="pt-10 pb-20">
+        <div class="container max-xs:!px-0">
+          <div
+            class="grid grid-cols-1 gap-5 items-center bg-white/5 p-5 rounded-2xl border border-[#393939] xs:border-2 sm:rounded-3xl md:grid-cols-2 lg:p-8"
+          >
+            <div class="space-y-6 md:space-y-14">
+              <h2 class="text-center md:text-start">
+                Qabulga yozilish uchun <br />
+                anketani to'ldiring
+              </h2>
+
+              <div class="grid grid-cols-1 gap-3 xs:grid-cols-2 sm:gap-5">
+                <!-- 1 -->
+                <div class="flex items-center gap-3 sm:gap-4 md:gap-5">
+                  <img
+                    width="32"
+                    height="32"
+                    src="./src/assets/images/icons/mail.svg"
+                    alt="Mail icon"
+                    class="size-6 sm:size-7 lg:size-8"
+                  />
+                  <div class="space-y-1">
+                    <h3 class="font-medium lg:text-lg">E-pochta</h3>
+                    <p class="opacity-70 text-sm sm:text-base">
+                      info@karraosish.com
+                    </p>
+                  </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="flex items-center gap-3 sm:gap-4 md:gap-5">
+                  <img
+                    width="32"
+                    height="32"
+                    src="./src/assets/images/icons/tel.svg"
+                    alt="Phone icon"
+                    class="size-6 sm:size-7 lg:size-8"
+                  />
+                  <div class="space-y-1">
+                    <h3 class="font-medium lg:text-lg">Telefon raqam</h3>
+                    <a
+                      href="tel:+998998887766"
+                      class="opacity-70 text-sm sm:text-base"
+                    >
+                      +998 (99) 888-77-66
+                    </a>
+                  </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="flex items-center gap-3 sm:gap-4 md:gap-5">
+                  <img
+                    width="32"
+                    height="32"
+                    src="./src/assets/images/icons/location.svg"
+                    alt="Location icon"
+                    class="size-6 sm:size-7 lg:size-8"
+                  />
+                  <div class="space-y-1">
+                    <h3 class="font-medium lg:text-lg">Manzil</h3>
+                    <address class="opacity-70 text-sm sm:text-base not-italic">
+                      Toshkent shahar, Chilonzor
+                    </address>
+                  </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="flex items-center gap-3 sm:gap-4 md:gap-5">
+                  <img
+                    width="32"
+                    height="32"
+                    src="./src/assets/images/icons/date.svg"
+                    alt="Date icon"
+                    class="size-6 sm:size-7 lg:size-8"
+                  />
+                  <div class="space-y-1">
+                    <h3 class="font-medium lg:text-lg">Ish vaqti</h3>
+                    <p class="opacity-70 text-sm sm:text-base">
+                      Du-Sha, 9:00 dan 18:00 gacha
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Form -->
+            <form
+              id="submitForm"
+              class="space-y-5 p-5 rounded-2xl bg-white/5 lg:p-8"
+            >
+              <div class="text-xl font-semibold xs:text-2xl">
+                So'rov yuborish
+              </div>
+
+              <!-- First name -->
+              <div class="space-y-1.5 rounded-b-lg custom-class">
+                <!-- Label -->
+                <label for="firstName" class="block pl-1.5">Oddiy Input</label>
+
+                <!-- Input -->
+                <input
+                  required
+                  type="text"
+                  id="firstName"
+                  name="firstName"
+                  maxlength="19"
+                  autocomplete="off"
+                  class="h-11 px-3.5"
+                  placeholder="Falonchi"
+                />
+              </div>
+
+              <!-- Phone number -->
+              <div class="space-y-1.5 rounded-b-lg custom-class">
+                <!-- Label -->
+                <label for="tel" class="block pl-1.5">Oddiy Input</label>
+
+                <!-- Input -->
+                <input
+                  required
+                  id="tel"
+                  type="tel"
+                  name="tel"
+                  maxlength="19"
+                  autocomplete="off"
+                  class="h-11 px-3.5"
+                  placeholder="+998 (__) ___-__-__"
+                />
+              </div>
+
+              <!-- Select -->
+              <div class="space-y-1.5">
+                <label for="variants" class="pl-1.5"
+                  >Variantlardan birni tanlang *</label
+                >
+
+                <select id="variants" name="variants" class="h-11 px-3.5">
+                  <option
+                    value="Hech qanday ma'lumotim yo'q, to'liqroq bilishni xohlayman."
+                  >
+                    Hech qanday ma'lumotim yo'q, to'liqroq bilishni xohlayman.
+                  </option>
+                  <option value="Dastur haqida bilaman, lekin savollarim bor.">
+                    Dastur haqida bilaman, lekin savollarim bor.
+                  </option>
+                  <option
+                    value="Dasturni o'rganib chiqdim, to'lov qilishga tayyorman."
+                  >
+                    Dasturni o'rganib chiqdim, to'lov qilishga tayyorman.
+                  </option>
+                </select>
+              </div>
+
+              <button id="submitButton" class="btn-primary w-full disabled:animate-pulse">
+                Yuborish
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-10 bg-white/5 border-t border-[#393939] xs:border-t-2">
+      <div class="container space-y-8 sm:space-y-5">
+        <div class="flex items-center justify-between gap-5">
+          <!-- Logo -->
+          <a href="index.html" class="flex items-center">
+            <img
+              width="56"
+              height="56"
+              src="./src/assets/images/icons/logo.svg"
+              alt="Logo image"
+              class="size-14"
+            />
+            <span class="text-lg font-semibold">Karra o'sish</span>
+          </a>
+
+          <!-- Nav -->
+          <ul class="hidden items-center gap-8 lg:flex">
+            <li><a href="#main">Asosiy</a></li>
+            <li><a href="#about">Haqida</a></li>
+            <li><a href="#modules">Modullar</a></li>
+            <li><a href="#gallery">Fotogalareya</a></li>
+            <li><a href="#comments">Sharxlar</a></li>
+          </ul>
+
+          <!-- Social -->
+          <ul class="flex items-center gap-3.5">
+            <li>
+              <a
+                target="_blank"
+                title="Facebook"
+                aria-label="Facebook"
+                href="https://.com/karrausish"
+              >
+                <img
+                  width="32"
+                  height="32"
+                  src="./src/assets/images/icons/facebook.svg"
+                  alt="Facebook logo icon"
+                  class="size-8 rounded-lg bg-white"
+                />
+              </a>
+            </li>
+
+            <li>
+              <a
+                target="_blank"
+                title="Instagram"
+                aria-label="Instagram"
+                href="https://.com/karrausish"
+              >
+                <img
+                  width="32"
+                  height="32"
+                  src="./src/assets/images/icons/instagram.svg"
+                  alt="Instagram logo icon"
+                  class="size-8"
+                />
+              </a>
+            </li>
+
+            <li>
+              <a
+                target="_blank"
+                title="Telegram"
+                aria-label="Telegram"
+                href="https://.com/karrausish"
+              >
+                <img
+                  width="32"
+                  height="32"
+                  src="./src/assets/images/icons/telegram.svg"
+                  alt="Telegram logo icon"
+                  class="size-8"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Mobile Nav -->
+        <ul class="flex flex-col items-center gap-8 sm:flex-row lg:hidden">
+          <li><a href="#main">Asosiy</a></li>
+          <li><a href="#about">Haqida</a></li>
+          <li><a href="#modules">Modullar</a></li>
+          <li><a href="#gallery">Fotogalareya</a></li>
+          <li><a href="#comments">Sharxlar</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script type="application/ld+json">
+      {
+        "@type": "Organization",
+        "name": "Karra O'sish",
+        "url": "https://karra-osish.netlify.app",
+        "logo": "data:image/svg+xml,%3csvg%20width='56'%20height='56'%20viewBox='0%200%2056%2056'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M44%200H56L34.5%2020.5L25%2030L45%2049H33L19%2035.5L13%2041H1L44%200Z'%20fill='%23028DE3'/%3e%3cpath%20d='M0%2016H11L17.75%2023L12%2028.5L0%2016Z'%20fill='%23028DE3'/%3e%3c/svg%3e",
+        "founder": {
+          "@type": "Person",
+          "name": "Sherzod Tursunov"
+        },
+        "description": "Biznesingizni kengaytirish va daromadni oshirish dasturi",
+        "sameAs": [
+          "https://facebook.com/karraosish",
+          "https://instagram.com/karraosish"
+        ]
+      }
+    </script>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script defer type="module" src="/src/js/index.js"></script>
+  </body>
+</html>

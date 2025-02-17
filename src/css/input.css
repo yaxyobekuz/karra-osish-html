@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- Base --- */
+
+@layer base {
+  html {
+    @apply scroll-smooth overflow-x-hidden;
+  }
+
+  body {
+    @apply overflow-x-hidden bg-[#111] text-base text-white font-normal font-Manrope;
+  }
+
+  h2 {
+    @apply text-2xl font-bold sm:text-3xl md:text-4xl;
+  }
+
+  input,
+  textarea,
+  select {
+    @apply w-full bg-white/10 outline-none rounded-lg;
+  }
+
+  option {
+    @apply bg-dark;
+  }
+
+  textarea {
+    @apply py-2.5 min-h-40 max-h-96 sm:min-h-32;
+  }
+}
+
+/* --- Components --- */
+
+@layer components {
+  .btn-primary {
+    @apply flex items-center justify-center bg-primary px-5 py-2.5 rounded-full text-white;
+  }
+
+  .btn-secondary {
+    @apply flex items-center justify-center bg-white/5 px-5 py-2.5 rounded-full border border-[#393939];
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    @apply hidden size-0;
+  }
+
+  .no-scroll {
+    @apply overflow-hidden;
+  }
+}
+
+/* --- Utilities --- */
+
+@layer utilities {
+  .container {
+    @apply max-w-7xl w-full px-4 mx-auto sm:px-5;
+  }
+}
+
+/* --- Swiper --- */
+
+.gallery-swiper .swiper-slide {
+  filter: brightness(0.3);
+  transition: filter 500ms ease-in-out;
+}
+
+.gallery-swiper .swiper-slide-active {
+  filter: brightness(1);
+}
