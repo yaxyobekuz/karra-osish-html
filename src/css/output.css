@@ -859,6 +859,11 @@ textarea{
   height: 3.5rem;
 }
 
+.size-20{
+  width: 5rem;
+  height: 5rem;
+}
+
 .size-32{
   width: 8rem;
   height: 8rem;
@@ -1014,6 +1019,16 @@ textarea{
 
 .-translate-y-1\/2{
   --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-x-0{
+  --tw-translate-x: 0px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-x-0\.5{
+  --tw-translate-x: 0.125rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1313,6 +1328,11 @@ textarea{
   padding: 2rem;
 }
 
+.px-0{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .px-3{
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -1359,6 +1379,10 @@ textarea{
 
 .pb-20{
   padding-bottom: 5rem;
+}
+
+.pb-40{
+  padding-bottom: 10rem;
 }
 
 .pb-5{
@@ -1462,6 +1486,12 @@ textarea{
 
 .opacity-80{
   opacity: 0.8;
+}
+
+.ring{
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
 .transition-colors{
@@ -1592,6 +1622,14 @@ textarea{
     height: auto;
   }
 
+  .xs\:\!w-40{
+    width: 10rem !important;
+  }
+
+  .xs\:w-40{
+    width: 10rem;
+  }
+
   .xs\:max-w-36{
     max-width: 9rem;
   }
@@ -1638,9 +1676,19 @@ textarea{
     line-height: 2rem;
   }
 
+  .xs\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   .xs\:text-base{
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .xs\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
