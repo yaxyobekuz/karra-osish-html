@@ -22,7 +22,10 @@
       content="Tadbirkorlar uchun biznesni rivojlantirish va daromadni oshirish dasturi."
     />
     <meta name="robots" content="index, follow" />
-    <meta property="og:url" content="https://karra-osish.netlify.app/src/index.html" />
+    <meta
+      property="og:url"
+      content="https://karra-osish.netlify.app/src/index.html"
+    />
     <meta
       property="og:image"
       content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnxZsW0rRrU8QLKTgXNhsvjf8D6UYtpD9E5A&s"
@@ -88,7 +91,7 @@
       <!-- Responsive menu -->
       <div
         id="mobileMenu"
-        class="fixed inset-x-0 top-[60px] z-50 bg-gray-light w-full h-screen translate-x-full transition-transform duration-300 dark:bg-[#212121] sm:top-16 md:top-[72px]"
+        class="fixed inset-x-0 top-[60px] z-50 bg-[#212121] w-full h-screen translate-x-full transition-transform duration-300 sm:top-16 md:top-[72px]"
       >
         <div class="p-8">
           <ul class="flex flex-col items-center gap-8">
@@ -883,7 +886,8 @@
             <!-- 5 -->
             <li
               style="
-                background: url('./src/assets/images/backgrounds/bull.jpg'), #292a31;
+                background: url('./src/assets/images/backgrounds/bull.jpg'),
+                  #292a31;
                 color: white;
               "
               class="flex flex-col justify-between gap-5 relative overflow-hidden min-h-52 !bg-cover !bg-no-repeat p-6 rounded-3xl sm:p-8"
@@ -1610,7 +1614,7 @@
               <!-- First name -->
               <div class="space-y-1.5 rounded-b-lg custom-class">
                 <!-- Label -->
-                <label for="firstName" class="block pl-1.5">Oddiy Input</label>
+                <label for="firstName" class="block pl-1.5">Ismingiz *</label>
 
                 <!-- Input -->
                 <input
@@ -1628,7 +1632,9 @@
               <!-- Phone number -->
               <div class="space-y-1.5 rounded-b-lg custom-class">
                 <!-- Label -->
-                <label for="tel" class="block pl-1.5">Oddiy Input</label>
+                <label for="tel" class="block pl-1.5"
+                  >Telefon raqamingiz *</label
+                >
 
                 <!-- Input -->
                 <input
@@ -1666,7 +1672,10 @@
                 </select>
               </div>
 
-              <button id="submitButton" class="btn-primary w-full disabled:animate-pulse">
+              <button
+                id="submitButton"
+                class="btn-primary w-full disabled:animate-pulse"
+              >
                 Yuborish
               </button>
             </form>

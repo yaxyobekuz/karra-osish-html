@@ -48,10 +48,6 @@
   .no-scrollbar::-webkit-scrollbar {
     @apply hidden size-0;
   }
-
-  .no-scroll {
-    @apply overflow-hidden;
-  }
 }
 
 /* --- Utilities --- */

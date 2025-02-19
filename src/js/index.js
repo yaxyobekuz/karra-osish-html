@@ -20,16 +20,17 @@ const comments = [
 
 // Responsive menu
 menuButton.addEventListener("click", function () {
+  window.scrollTo(0, 0);
   mobileMenu.classList.toggle("translate-x-0");
   mobileMenu.classList.toggle("translate-x-full");
-  document.documentElement.classList.toggle("no-scroll");
+  document.documentElement.classList.toggle("overflow-y-hidden");
 });
 
 menuLinks.forEach((link) => {
   link.addEventListener("click", function () {
     mobileMenu.classList.add("translate-x-full");
     mobileMenu.classList.remove("translate-x-0");
-    document.documentElement.classList.remove("no-scroll");
+    document.documentElement.classList.remove("overflow-y-hidden");
   });
 });
 
