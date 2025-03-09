@@ -8,7 +8,7 @@ This project is built with **HTML**, **CSS**, and **JavaScript** to provide a si
 
 ### 🚀 **Live Demo**
 
-🔗 [View Live](https://karra-osish-react.netlify.app)
+🔗 [View Live](https://karra-osish.netlify.app)
 
 ## 📌 Features
 
